@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+    <script src="./jquery.min.js"></script>
+
+</head>
+
+<body>
+ 
+<div id="flex-container">
+
+    <div class="Img">
+    <span>
+        <p>XYZ Online Courses</p>
+    </span>
+    <span >
+        <img src="" alt="" id="langImg" style="width: 250px ;">
+    </span>
+    </div>
+
+    
+    <div class="main-box">
+
+        <h1 class="title">
+        Membership Form
+        </h1>
+
+    <form action="#" method="post">
+
+    <div class="form">
+    <h2> I want to learn :</h2>
+    <select name="lang" id="lang">
+        <option value="chinese" >Chinese</option>
+        <option value="japanese">Japanese</option>
+        <option value="korean" >Korean</option>
+    </select>
+    <span class="comment"></span>
+    </div>
+
+    <div class="form">
+    <lable for ='name'>
+    <input type="text" id="name" name="name" placeholder="Please enter your name">
+    </lable>
+    <p class="comment"></p>
+    </div>
+
+    <div class="form">
+    <p>When were you born?</p>
+    <lable for ='birthday'>
+    <input type="date" id="date" name="date">
+    </lable>
+    <span class="comment"></span>
+</div>
+
+
+<div class="form">
+    <lable for ='credit-card'>
+        <input type="text" id="credit-card" name="credit-card" placeholder=" Credit card number">
+    </lable>
+    <span class="comment"></span>
+    </div>
+
+
+<div class="form">
+    <lable for="pass">
+        <input type="password" id="pass" name="pass" placeholder="Password (6-11 digits) ">
+    </lable>
+    <span class="comment"></span>
+</div>
+
+
+<div class="form">
+    <lable for="conf-pass">
+        <input type="password" id="conf-pass" name="conf-pass" placeholder="Re-enter your Password">
+    </lable>
+    <span class="comment"></span>
+</div>
+
+
+
+    <div class="form">
+    <lable for ='male' >male
+        <input type="radio" id="male" name="gender" onclick="Gval(this.id)">
+    </lable>
+    </div>
+    
+    <div class="form">
+    <lable for ='female'>female
+        <input type="radio" id="female" name="gender" onclick="Gval(this.id)">
+    </lable>
+    </div>
+
+
+    <div class="form ">
+        <lable for ='privacy'><p>I have read and accept the privacy policy</p>
+            <input type="checkbox" id="confirmed" name="confirmed">
+        </lable>
+        </div>
+
+        <button id="btn" type="button" disabled>join XYZ</button>
+
+    </form>
+
+       
+
+</div>
+
+
+<script src="./script.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+
+html{
+    font-family: "Vazir" ;
+    color: #3b3b59;
+    background-color: rgb(157, 117, 250);
+}
+
+html, body, #flex-container { 
+
+    height: 100%;  
+
+
+}
+  #flex-container { 
+    display: flex;
+    justify-content: space-around;
+}
+
+.Img{
+background-image: url(./imgg.avif);
+background-size:cover ;
+height: 115%;
+text-align: center;
+flex-grow: 1;
+}
+
+span>p{
+    font-weight:bolder ;
+    font-size: 30px;
+    margin-top:  30% ;
+    color: azure;
+    background-color: #171718;
+    
+} 
+
+
+.main-box{
+background-color: rgb(157, 117, 250);
+flex-grow: 1;
+text-align: center;
+align-self: stretch;
+align-content: space-around;
+border: 2px dotted black;
+height: 115%;
+}
+form>div , form>h1{
+padding: .7rem;
+}
+
+input {
+    width: 50%;
+    border-radius: 15px;
+    padding: .5rem;
+    background-color: rgb(188, 163, 247);
+    border: none;
+}
+
+input:focus{
+    background-color: rgba(102, 97, 112, 0.404);
+    
+} 
+
+input::placeholder{
+    color: antiquewhite;
+}
+
+.title{
+font-weight:bold ;
+text-decoration: underline white;
+font-size: x-large;
+letter-spacing: 3px;
+margin: .7rem 0 ;
+
+}
+
+div>h2 , div>p{
+font-size: large;
+
+margin-bottom: .7rem;
+}
+
+select,select>option{
+    background-color: rgb(17, 10, 31);
+    color: #bfbfcf;
+    border-radius: 5px;
+    padding: .2rem;
+}
+
+#btn{
+    border-radius: 15px;
+    padding: .8rem;
+    background-color: rgb(17, 10, 31);
+    color: #bfbfcf;
+    border: none ;
+}
+ 
+#male , #female {
+
+    width: 10%;
+
+}
+
+.valid {
+  border: 2px solid green;
+  background-color: rgb(203, 240, 167);
+}
+
+.comment {
+    display: block;
+    padding: .2rem 0;
+    color: rgb(133, 48, 81);
+}
+
